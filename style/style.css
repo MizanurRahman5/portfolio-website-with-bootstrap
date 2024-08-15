@@ -139,6 +139,8 @@ text-align: center;
     margin: auto;
 }
 .card{
+    
+    width: 100% !important;
     border: none !important;
     /* Shadow/Big Card */
 box-shadow: 8px 8px 20px 3px rgba(147, 147, 147, 0.13);
@@ -147,8 +149,26 @@ margin: 3rem 0;
      
 }
 .card img{
-    width: 40%;
+    width: 30%;
     padding: 30px 20px;
+}
+.card-body{
+    position: relative;
+    margin-bottom: 50px;
+}
+.right-arrow{
+    width: 100%;
+    font-size: 28px;
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    transition: .6s;
+
+
+}
+.card:hover .right-arrow{
+    left: 50px;
+    color: rgb(229, 116, 93);
 }
 
 /* -------------------- Service styla End------------------------ */
