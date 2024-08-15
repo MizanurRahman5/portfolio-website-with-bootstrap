@@ -95,7 +95,9 @@ line-height: 30px;
 }
 /* -----------------Banner Style End--------------------- */
 /* -------------------- Service styla Start------------------------ */
-
+.service {
+    margin: 3rem 0;
+}
 .service-header p{
     color: rgb(229, 116, 93);
     font-family: Vollkorn;
