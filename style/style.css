@@ -180,6 +180,7 @@ margin: 3rem 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 3rem;
 }
 .about-header {
   width: 230px;
@@ -207,14 +208,13 @@ margin: 3rem 0;
   max-width: 170px;
 }
 
-.mt-100{
-    margin-top: 200px;
-  }
+
   .progress {
+
     width: 150px;
     height: 150px !important;
     float: left; 
-    box-shadow: 0px 20px 100px 0px rgba(0, 65, 61, 0.06);
+    
 background-color: rgb(255, 255, 255);
     line-height: 150px;
     background: none;
@@ -222,6 +222,11 @@ background-color: rgb(255, 255, 255);
     box-shadow: none;
     position: relative;
   }
+  .progress.blue, .progress.yellow {
+    background: white;
+    box-shadow: 0px 20px 100px 0px rgba(0, 65, 61, 0.06);
+   
+}
   .progress:after {
     content: "";
     width: 100%;
