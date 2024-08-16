@@ -336,3 +336,18 @@ background-color: rgb(255, 255, 255);
     }
   }
 /* ------------------------About Styla End------------------------- */
+
+
+
+
+/* ---------------------------footer style Start---------------------------- */
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+a.text-white {
+  text-decoration: none;
+} 
+/* ---------------------------footer style end---------------------------- */
