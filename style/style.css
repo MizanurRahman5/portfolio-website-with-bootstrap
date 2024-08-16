@@ -98,7 +98,7 @@ line-height: 30px;
 .service {
     margin: 3rem 0;
 }
-.service-header p{
+.service-header, .about-header p{
     color: rgb(229, 116, 93);
     font-family: Vollkorn;
     font-size: 18px;
@@ -134,11 +134,11 @@ font-family: Vollkorn;
 font-size: 50px;
 font-weight: 500;
 line-height: 60px;
-text-align: center;
 }
 .service-title{
     max-width: 542px;
     margin: auto;
+    text-align: center;
 }
 .card{
     
@@ -176,6 +176,37 @@ margin: 3rem 0;
 /* -------------------- Service styla End------------------------ */
 
 /* ------------------------About Styla Start------------------------- */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-header {
+  width: 230px;
+  position: relative;
+  text-align: center;
+}
+.about-title {
+  text-align: left;
+}
+
+.about-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1.8rem !important
+  ;
+}
+.about-image-2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.8rem;
+  
+}
+.about-btn {
+  max-width: 170px;
+}
+
 .mt-100{
     margin-top: 200px;
   }
