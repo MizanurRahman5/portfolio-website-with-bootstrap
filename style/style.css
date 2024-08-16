@@ -1,0 +1,353 @@
+/* --------------google Fonts---------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* -----------------Shared style Start------------------- */
+.common-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  padding: 5px;
+  background: rgb(229, 116, 93);
+}
+.common-btn .button {
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  border: 1px solid #fff;
+  font-family: Jost;
+  font-weight: 500;
+}
+/* -----------------Shared style end------------------- */
+/* ----------------Navbar Style Start---------------- */
+.nav-item a{
+    color: rgb(0, 65, 61);
+font-family: Jost;
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+transition: .5s;
+}
+.nav-item a:hover{
+    color: rgb(229, 116, 93);
+}
+.navbar-nav {
+    column-gap: 30px;
+}
+
+/* ----------------Navbar Style End-------------------- */
+
+/* -----------------Banner Style Start------------------- */
+.banner {
+    background: rgb(0, 65, 61);
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.banner-btn{
+    max-width: 155px;
+}
+.banner h1 span{
+    display: block;
+}
+.banner h1 {
+    color: rgb(255, 255, 255);
+font-family: Vollkorn;
+font-size: 100px;
+font-weight: 700;
+line-height: 110px;
+}
+.banner p{
+    max-width: 670px;
+color: #80A09E;
+    font-family: Jost;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+}
+.overly {
+    width: 50%;
+    height: 100%;
+    background-image: url('../images/front-view-young-male-red-shirt-black-wall.jpg.crdownload');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    z-index: -1;
+    transition: .7s;
+}
+.banner:hover .overly{
+    right: 0;
+}
+/* -----------------Banner Style End--------------------- */
+/* -------------------- Service styla Start------------------------ */
+.service {
+    margin: 3rem 0;
+}
+.service-header, .about-header p{
+    color: rgb(229, 116, 93);
+    font-family: Vollkorn;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.service-header {
+    width: 230px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+.vector {
+    width: 50px;
+    height: 2px;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+.solid-circle {
+    position: absolute;
+    top: -4px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: red;
+}
+.title h1{
+    color: rgb(0, 65, 61);
+font-family: Vollkorn;
+font-size: 50px;
+font-weight: 500;
+line-height: 60px;
+}
+.service-title{
+    max-width: 542px;
+    margin: auto;
+    text-align: center;
+}
+.card{
+    
+    width: 100% !important;
+    border: none !important;
+    /* Shadow/Big Card */
+box-shadow: 8px 8px 20px 3px rgba(147, 147, 147, 0.13);
+background: rgb(255, 255, 255);
+margin: 3rem 0;
+     
+}
+.card img{
+    width: 30%;
+    padding: 30px 20px;
+}
+.card-body{
+    position: relative;
+    margin-bottom: 50px;
+}
+.right-arrow{
+    width: 100%;
+    font-size: 28px;
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    transition: .6s;
+
+
+}
+.card:hover .right-arrow{
+    left: 50px;
+    color: rgb(229, 116, 93);
+}
+
+/* -------------------- Service styla End------------------------ */
+
+/* ------------------------About Styla Start------------------------- */
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.about-header {
+  width: 230px;
+  position: relative;
+  text-align: center;
+}
+.about-title {
+  text-align: left;
+}
+
+.about-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1.8rem !important
+  ;
+}
+.about-image-2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.8rem;
+  
+}
+.about-btn {
+  max-width: 170px;
+}
+
+
+  .progress {
+
+    width: 150px;
+    height: 150px !important;
+    float: left; 
+    
+background-color: rgb(255, 255, 255);
+    line-height: 150px;
+    background: none;
+    margin: 20px;
+    box-shadow: none;
+    position: relative;
+  }
+  .progress.blue, .progress.yellow {
+    background: white;
+    box-shadow: 0px 20px 100px 0px rgba(0, 65, 61, 0.06);
+   
+}
+  .progress:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .progress>span {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+  .progress .progress-left {
+    left: 0;
+  }
+  .progress .progress-bar {
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 12px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+  }
+  .progress .progress-left .progress-bar {
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+  }
+  .progress .progress-right {
+    right: 0;
+  }
+  .progress .progress-right .progress-bar {
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+  }
+  .progress .progress-value {
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: #000;
+    font-size: 24px;
+    color: #fff;
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+  }
+  .progress.blue .progress-bar {
+    border-color: #049dff;
+  }
+  .progress.blue .progress-left .progress-bar {
+    animation: loading-2 1.5s linear forwards 1.8s;
+  }
+  .progress.yellow .progress-bar {
+    border-color: #fdba04;
+  }
+  .progress.yellow .progress-right .progress-bar {
+    animation: loading-3 1.8s linear forwards;
+  }
+  .progress.yellow .progress-left .progress-bar {
+    animation: none;
+  }
+  @keyframes loading-1 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+    }
+  }
+  @keyframes loading-2 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(144deg);
+      transform: rotate(144deg);
+    }
+  }
+  @keyframes loading-3 {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(135deg);
+      transform: rotate(135deg);
+    }
+  }
+/* ------------------------About Styla End------------------------- */
+
+
+
+
+/* ---------------------------footer style Start---------------------------- */
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+a.text-white {
+  text-decoration: none;
+} 
+/* ---------------------------footer style end---------------------------- */
