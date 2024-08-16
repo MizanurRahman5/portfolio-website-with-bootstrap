@@ -150,7 +150,7 @@ background: rgb(255, 255, 255);
 margin: 3rem 0;
      
 }
-.card img{
+.service .card img{
     width: 30%;
     padding: 30px 20px;
 }
@@ -336,6 +336,22 @@ background-color: rgb(255, 255, 255);
     }
   }
 /* ------------------------About Styla End------------------------- */
+/* ------------------------My Project Styla start------------------------- */
+.my-projects .card-body {
+  position: relative;
+  margin-bottom: 5px !important;
+}
+
+a.btn.btn-primary.mb-3.mr-1 {
+  background: transparent;
+  color: black;
+} 
+span.project-card-small-title {
+  color: red;
+}
+
+
+/* ------------------------My Project Styla end------------------------- */
 
 
 
